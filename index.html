@@ -122,10 +122,38 @@
                 <div class="col-lg-12">
                     <h1>Contact Me</h1>
                     <br>
-                    <p>You can contact and find me via WhatsApp, Instagram, and Email!
+                    <p>You can contact and find me via WhatsApp, Instagram, Messenger and Email!
                     <br>
                     <p>WhatsApp: +852 69964144</p>
                     <p>Instagram: <a href="https://www.instagram.com/zhlmartialarts" target="_blank" rel="noopener noreferrer">@ZHLMartialArts</a>
+                    <br>
+                    <p>Send me a message via Messenger!</p>
+<!-- Messenger Chat plugin Code -->
+<div id="fb-root"></div>
+
+<!-- Your Chat plugin code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "111503641164821");
+  chatbox.setAttribute("attribution", "biz_inbox");
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v11.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
                     <p>Email: zen.h.lui.ma@gmail.com</p>
                     <br>
                     <p>If you'd like to stay up to date via email, please sign up for crucial updates such as new locations, course updates, and when I take a break!</p>
