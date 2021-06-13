@@ -52,7 +52,7 @@ html {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #EFDECD;
+    background: #1383e4;
 }
 .whatwedo-section {
     height: 100%;
@@ -64,14 +64,14 @@ html {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #EFDECD;
+    background: #1383e4;
 }
 .navbar-default .navbar-nav > li > a:hover {
 	color: #333;
 	background-color: #F0F0F0;
 }
 .navbar-default {
-    background-color: #EBFAFF;
+    background-color: #1383e4;
     border-color: #e7e7e7;
 }
 .navbar-default .navbar-nav > li > a {
