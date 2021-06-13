@@ -77,6 +77,8 @@ html {
 .navbar-default .navbar-nav > li > a {
     color: #000;
 }
-
+img {
+    max-height: 0.5vh;
+}
 
 
