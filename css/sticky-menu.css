@@ -78,7 +78,8 @@ html {
     color: #000;
 }
 img {
-    max-height: 0.5vh;
+    max-width: 50%;
+    max-height: auto;
 }
 
 
