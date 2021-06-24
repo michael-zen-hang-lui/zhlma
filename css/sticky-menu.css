@@ -76,6 +76,7 @@ html {
 }
 .navbar-default .navbar-nav > li > a {
     color: #fff;
+    font-family: "Overpass Mono", monospace;
 }
 img {
     max-width: 50%;
