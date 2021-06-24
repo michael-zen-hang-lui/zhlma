@@ -71,11 +71,11 @@ html {
 	background-color: #F0F0F0;
 }
 .navbar-default {
-    background-color: #EFDECD;
-    border-color: #e7e7e7;
+    background-color: #000;
+    border-color: #000;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #000;
+    color: #fff;
 }
 img {
     max-width: 50%;
