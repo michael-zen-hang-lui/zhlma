@@ -6792,6 +6792,12 @@ button.close {
   }
 }
 
+@media (min-width: 568px) {
+  section#welcome {
+    height: 850px;
+  }
+}
+
 /* large screens */
 @media (min-width: 1366px) {
   section#welcome {
