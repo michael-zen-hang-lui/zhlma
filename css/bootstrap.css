@@ -6789,4 +6789,12 @@ button.close {
   }
 }
 
+/* large screens */
+@media (min-width: 1366px) {
+  section#welcome {
+    height: 1000px;
+  }
+}
+
+
 /*# sourceMappingURL=bootstrap.css.map */
