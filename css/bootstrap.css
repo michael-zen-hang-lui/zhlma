@@ -4499,6 +4499,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-brand {
   color: #c8cfd5;
+  font-family: "Overpass Mono", monospace;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
