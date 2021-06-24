@@ -6794,6 +6794,9 @@ button.close {
   section#welcome {
     height: 1000px;
   }
+  
+  p {
+    font-size: 1.8rem;
 }
 
 
