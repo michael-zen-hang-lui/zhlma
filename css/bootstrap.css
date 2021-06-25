@@ -6776,34 +6776,21 @@ button.close {
   } 
 }
 
-
-/* temporary mobile fixes for smartphones, landscape */
+/*  smartphones, landscape */
 @media (min-width: 568px) {
   section#welcome {
-    height: 720px;
+    height: 600px;
+    padding-top: 10%;
   }
   
-  
-/*   @media (min-width: 568px)
-section#welcome {
-    height: 700px;
-    padding-top: 15%;
-} */
-  
   section#about, section#whatwedo {
-    height: 520px;
-    padding-top: 40px;
+    height: 600px;
+    padding-top: 10%;
   }
 
   section#contact {
-    padding-top: 40px;
-    height: 500px;
-  }
-}
-
-@media (min-width: 568px) {
-  section#welcome {
-    height: 850px;
+    padding-top: 10%;
+    height: 520px;
   }
 }
 
