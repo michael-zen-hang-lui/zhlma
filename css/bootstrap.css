@@ -6858,6 +6858,10 @@ button.close {
 
 #mc-embedded-subscribe {
     margin-top: 10px !important;
+    background-color: #1383e4;
+    border: none;
+    font-family: "Overpass", monospace;
+    font-size: 1.25em;
 }
 
 
