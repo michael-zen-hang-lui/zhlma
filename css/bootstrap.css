@@ -6856,5 +6856,9 @@ button.close {
   }
 }
 
+#mc-embedded-subscribe {
+    margin-top: 10px !important;
+}
+
 
 /*# sourceMappingURL=bootstrap.css.map */
