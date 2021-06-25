@@ -6809,7 +6809,11 @@ button.close {
 
   section#contact {
     padding-top: 10%;
-    height: 520px;
+    height: 600px;
+  }
+  
+  p {
+     font-size: 1.5rem; 
   }
 }
 
