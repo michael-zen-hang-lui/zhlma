@@ -6761,7 +6761,7 @@ button.close {
 /* smartphones, portrait mode */
 @media (min-width: 320px) {
   section#welcome {
-    height: 100vh;
+    height: 100%;
     padding-top: 20vh;
   }
       
@@ -6832,7 +6832,7 @@ button.close {
 }
 
 /* large screens */
-@media (min-width: 1366px) {
+@media (min-width: 1280px) {
   section#welcome {
     min-height: 1000px;
   }
