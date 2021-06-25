@@ -6758,29 +6758,38 @@ button.close {
   }
 }
 
-/* temporary mobile fixes for smartphones, portrait mode */
-@media (max-width: 414px) {
+/* smartphones, portrait mode */
+@media (min-width: 320px) {
   section#welcome {
-    height: 580px;
-    padding-top: 100px;
+    height: 100vh;
+    padding-top: 20vh;
   }
-  
+      
   section#about, section#whatwedo {
     height: 730px;
-    padding-top: 40px;
+    padding-top: 10%;
   }
-
+  
   section#contact {
-    padding-top: 40px;
+    padding-top: 10%;
     height: 570px;
-  }
+  } 
 }
+
 
 /* temporary mobile fixes for smartphones, landscape */
 @media (min-width: 568px) {
   section#welcome {
     height: 720px;
   }
+  
+  
+/*   @media (min-width: 568px)
+section#welcome {
+    height: 700px;
+    padding-top: 15%;
+} */
+  
   section#about, section#whatwedo {
     height: 520px;
     padding-top: 40px;
