@@ -6794,6 +6794,25 @@ button.close {
   }
 }
 
+
+/*  tablets, portrait */
+@media (min-width: 768px) {
+  section#welcome {
+    height: 80vh;
+    padding-top: 15vh;
+  }
+  
+  section#about, section#whatwedo {
+    height: 600px;
+    padding-top: 10%;
+  }
+
+  section#contact {
+    padding-top: 10%;
+    height: 520px;
+  }
+}
+
 /* large screens */
 @media (min-width: 1366px) {
   section#welcome {
