@@ -6761,7 +6761,7 @@ button.close {
 /* temporary mobile fixes for smartphones, portrait mode */
 @media (max-width: 414px) {
   section#welcome {
-    height: 550px;
+    height: 580px;
     padding-top: 100px;
   }
   
