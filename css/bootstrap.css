@@ -6860,6 +6860,20 @@ button.close {
   }
 }
 
+/* extra large monitors, 27inch+ */
+@media (min-width: 2560px) {
+  section#welcome {
+    min-height: 1200px;
+  }
+  
+  section#about, section#whatwedo, section#contact {
+    min-height: 600px;
+    padding-top: 2%;
+  }
+ 
+}
+
+
 #mc_embed_signup .button {
     margin-top: 10px;
     background-color: #1383e4 !important;
