@@ -6842,6 +6842,11 @@ button.close {
     padding-top: 5%;
   }
   
+  section#contact {
+    min-height: 550px;
+    padding-top: 5%;
+  }
+  
   p {
     font-size: 1.8rem;
   }
