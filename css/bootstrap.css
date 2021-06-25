@@ -6862,6 +6862,7 @@ button.close {
     border: none !important;
     font-family: "Overpass", monospace;
     font-size: 1.25em !important;
+    height: auto !important;
 }
 
 
