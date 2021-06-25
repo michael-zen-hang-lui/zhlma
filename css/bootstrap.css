@@ -6779,7 +6779,7 @@ button.close {
 /*  smartphones, landscape */
 @media (min-width: 568px) {
   section#welcome {
-    height: 600px;
+    min-height: 650px;
     padding-top: 10%;
   }
   
