@@ -6813,6 +6813,24 @@ button.close {
   }
 }
 
+/*  tablets, landscape */
+@media (min-width: 1024px) {
+  section#welcome {
+    height: 850px;
+    padding-top: 15vh;
+  }
+  
+  section#about, section#whatwedo {
+    height: 600px;
+    padding-top: 5%;
+  }
+
+  section#contact {
+    padding-top: 5%;
+    height: 520px;
+  }
+}
+
 /* large screens */
 @media (min-width: 1366px) {
   section#welcome {
