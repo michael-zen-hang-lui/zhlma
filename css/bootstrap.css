@@ -6820,8 +6820,8 @@ button.close {
 /*  tablets, landscape */
 @media (min-width: 1024px) {
   section#welcome {
-    height: 850px;
-    padding-top: 15vh;
+    min-height: 900px;
+    padding-top: 10vh;
   }
   
   section#about, section#whatwedo {
