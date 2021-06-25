@@ -6865,5 +6865,9 @@ button.close {
     height: auto !important;
 }
 
+#mc_embed_signup .button:hover {
+  background-color: #4aa1ed;
+}
+
 
 /*# sourceMappingURL=bootstrap.css.map */
