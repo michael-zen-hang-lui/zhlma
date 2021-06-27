@@ -9,22 +9,22 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Overpass", sans-serif;
   color: #444444;
 }
 
 a {
-  color: #3498db;
+  color: #1383e4;
   text-decoration: none;
 }
 
 a:hover {
-  color: #5faee3;
+  color: #ec7c1b;
   text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Overpass Mono", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #3498db;
+  background: #1383e4;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  background: #57aae1;
+  background: #ec7c1b;
   color: #fff;
 }
 
@@ -145,11 +145,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #3498db;
+  color: #1383e4;
 }
 
 .navbar .getstarted {
-  background: #3498db;
+  background: #1383e4;
   padding: 8px 25px;
   margin-left: 30px;
   border-radius: 50px;
@@ -158,7 +158,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar .getstarted:hover {
   color: #fff;
-  background: #4aa3df;
+  background: #ec7c1b;
 }
 
 .navbar .dropdown ul {
@@ -191,7 +191,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #3498db;
+  color: #1383e4;
 }
 
 .navbar .dropdown:hover > ul {
@@ -286,7 +286,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #3498db;
+  color: #1383e4;
 }
 
 .navbar-mobile .getstarted {
@@ -318,7 +318,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #3498db;
+  color: #1383e4;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -349,7 +349,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started {
-  font-family: "Raleway", sans-serif;
+  font-family: "Overpass", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -357,12 +357,14 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 30px;
   border-radius: 50px;
   transition: 0.5s;
-  color: #3498db;
-  border: 2px solid #3498db;
+  color: #fff;
+  background: #1383e4;
+  border: 2px solid #1383e4;
 }
 
 #hero .btn-get-started:hover {
-  background: #3498db;
+  background: #ec7c1b;
+  border: 2px solid #ec7c1b;
   color: #fff;
 }
 
@@ -443,7 +445,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f7fbfe;
+  background-color: #c8cfd5;
 }
 
 .section-title {
@@ -463,7 +465,7 @@ section {
   content: '';
   width: 50px;
   height: 2px;
-  background: #3498db;
+  background: #ec7c1b;
   display: inline-block;
 }
 
@@ -546,7 +548,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #3498db;
+  color: #1383e4;
   line-height: 1;
 }
 
@@ -555,7 +557,7 @@ section {
 }
 
 .about .content .btn-learn-more {
-  font-family: "Raleway", sans-serif;
+  font-family: "Overpass", sans-serif;
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 1px;
@@ -564,15 +566,17 @@ section {
   border-radius: 50px;
   transition: 0.3s;
   line-height: 1;
-  color: #3498db;
+  background: #1383e4;
+  color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid #3498db;
+  border: 2px solid #1383e4;
 }
 
 .about .content .btn-learn-more:hover {
-  background: #3498db;
+  background: #ec7c1b;
+  border: 2px solid #ec7c1b;
   color: #fff;
   text-decoration: none;
 }
@@ -606,7 +610,7 @@ section {
 .counts .content .count-box i {
   display: block;
   font-size: 36px;
-  color: #3498db;
+  color: #1383e4;
   float: left;
   line-height: 0;
 }
@@ -623,7 +627,7 @@ section {
 .counts .content .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 50px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Overpass", sans-serif;
   font-size: 14px;
   color: #484848;
 }
@@ -685,7 +689,7 @@ section {
 }
 
 .services .icon-box:hover::before {
-  background: #3498db;
+  background: #1383e4;
   right: 0;
   top: 0;
   width: 100%;
@@ -701,7 +705,7 @@ section {
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  background: #3498db;
+  background: #1383e4;
   transition: all 0.3s ease-in-out;
 }
 
@@ -736,7 +740,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: #3498db;
+  color: #1383e4;
 }
 
 /*--------------------------------------------------------------
@@ -793,7 +797,7 @@ section {
 }
 
 .more-services .card:hover .card-body {
-  background: #3498db;
+  background: #1383e4;
 }
 
 .more-services .card:hover .read-more a, .more-services .card:hover .card-title, .more-services .card:hover .card-title a, .more-services .card:hover .card-text {
@@ -831,7 +835,7 @@ section {
 }
 
 .features .icon-box h3 a:hover {
-  color: #3498db;
+  color: #1383e4;
 }
 
 .features .icon-box:hover {
@@ -850,7 +854,7 @@ section {
   padding: 30px 30px 30px 60px;
   margin: 30px 15px;
   min-height: 200px;
-  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 2px 12px #c8cfd5;
   position: relative;
   background: #fff;
 }
@@ -877,7 +881,7 @@ section {
 }
 
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
-  color: #e1f0fa;
+  color: #999;
   font-size: 26px;
 }
 
@@ -909,11 +913,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #3498db;
+  border: 1px solid #ec7c1b;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #3498db;
+  background-color: #ec7c1b;
 }
 
 @media (max-width: 767px) {
@@ -960,7 +964,7 @@ section {
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #3498db;
+  background: #1383e4;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1037,7 +1041,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #3498db;
+  color: #1383e4;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -1073,11 +1077,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #3498db;
+  border: 1px solid #1383e4;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #3498db;
+  background-color: #1383e4;
 }
 
 .portfolio-details .portfolio-info {
@@ -1162,7 +1166,7 @@ section {
 }
 
 .team .member .social a:hover {
-  color: #3498db;
+  color: #1383e4;
 }
 
 .team .member .social i {
@@ -1204,12 +1208,12 @@ section {
 --------------------------------------------------------------*/
 .pricing .box {
   padding: 20px;
-  background: #f9f9f9;
+  background: #c8cfd5;
   text-align: center;
   border-radius: 8px;
   position: relative;
   overflow: hidden;
-  border: 2px solid #f9f9f9;
+  border: 2px solid #c8cfd5;
 }
 
 .pricing .box h3 {
@@ -1223,7 +1227,7 @@ section {
 
 .pricing .box h4 {
   font-size: 42px;
-  color: #3498db;
+  color: #ec7c1b;
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 20px;
@@ -1236,9 +1240,9 @@ section {
 }
 
 .pricing .box h4 span {
-  color: #bababa;
+  color: #ec7c1b;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .pricing .box ul {
@@ -1255,13 +1259,13 @@ section {
 }
 
 .pricing .box ul i {
-  color: #3498db;
+  color: #ec7c1b;
   font-size: 18px;
   padding-right: 4px;
 }
 
 .pricing .box ul .na {
-  color: #ccc;
+  color: #ec7c1b;
   text-decoration: line-through;
 }
 
@@ -1274,26 +1278,26 @@ section {
   display: inline-block;
   padding: 10px 40px 12px 40px;
   border-radius: 50px;
-  border: 2px solid #3498db;
-  color: #3498db;
+  border: 2px solid #1383e4;
+  color: #1383e4;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Raleway", sans-serif;
+  font-family: "Overpass", sans-serif;
   font-weight: 600;
   transition: 0.3s;
 }
 
 .pricing .box .btn-buy:hover {
-  background: #3498db;
+  background: #1383e4;
   color: #fff;
 }
 
 .pricing .recommended {
-  border-color: #3498db;
+  border-color: #ec7c1b;
 }
 
 .pricing .recommended .btn-buy {
-  background: #3498db;
+  background: #1383e4;
   color: #fff;
 }
 
@@ -1312,7 +1316,7 @@ section {
 }
 
 .faq .faq-item i {
-  color: #8bc4ea;
+  color: #ec7c1b;
   font-size: 24px;
   float: left;
   line-height: 0;
@@ -1348,7 +1352,7 @@ section {
 .contact .contact-about p {
   font-size: 14px;
   line-height: 24px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Overpass", sans-serif;
   color: #888;
 }
 
@@ -1360,7 +1364,7 @@ section {
   font-size: 18px;
   display: inline-block;
   background: #fff;
-  color: #3498db;
+  color: #1383e4;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1369,11 +1373,11 @@ section {
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  border: 1px solid #3498db;
+  border: 1px solid #1383e4;
 }
 
 .contact .social-links a:hover {
-  background: #3498db;
+  background: #1383e4;
   color: #fff;
 }
 
@@ -1383,7 +1387,7 @@ section {
 
 .contact .info i {
   font-size: 32px;
-  color: #3498db;
+  color: #1383e4;
   float: left;
   line-height: 1;
 }
@@ -1448,11 +1452,11 @@ section {
 }
 
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #3498db;
+  border-color: #1383e4;
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #3498db;
+  background: #1383e4;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1569,5 +1573,5 @@ section {
 }
 
 #footer .footer-links a:hover {
-  color: #3498db;
+  color: #ec7c1b;
 }
