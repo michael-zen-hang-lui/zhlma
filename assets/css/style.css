@@ -548,7 +548,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #1383e4;
+  color: #ec7c1b;
   line-height: 1;
 }
 
@@ -610,7 +610,7 @@ section {
 .counts .content .count-box i {
   display: block;
   font-size: 36px;
-  color: #1383e4;
+  color: #ec7c1b;
   float: left;
   line-height: 0;
 }
